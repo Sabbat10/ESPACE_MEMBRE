@@ -4,7 +4,7 @@
 	ini_set('display_startup_errors', 1);
 	error_reporting(E_ALL);
 
-	// on peut utiliser (isset ou !empty)
+	// on peut utiliser (isset ou !empty ça fait presque la même la chose)
 	if (isset($_POST['email']) AND isset($_POST['password']) AND isset($_POST['password_two'])) {
 			//Connexion à lqa la BDD
 			require_once('src/connexion.php');
